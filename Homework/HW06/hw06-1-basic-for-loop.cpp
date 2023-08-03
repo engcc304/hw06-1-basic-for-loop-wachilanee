@@ -36,7 +36,7 @@ int main()
     int N,i;
     printf("Enter Number :");
     scanf("%d",&N);
-    if( N % 2 == 0 ) for(i = 1; i <= N; i++) printf("\n (%d) Hello World \n",i) ;
+    printf("\n"); if( N % 2 == 0 ) for(i = 1; i <= N; i++) printf(" (%d) Hello World \n",i) ;
     else for(i = 1; i <= N; i++) printf("\n [%d] Hello World \n",i) ;
     return 0;
 }
